@@ -22,6 +22,7 @@
         --st-wait-bg: #fef9c3;    --st-wait-txt: #854d0e;
         --st-fail-bg: #fee2e2;    --st-fail-txt: #991b1b;
         --st-gray-bg: #f1f5f9;    --st-gray-txt: #475569;
+        --st-cancel-bg: #fef3c7;  --st-cancel-txt: #92400e;
 
         /* Inputs */
         --input-bg: #f8fafc;
@@ -43,6 +44,7 @@
         --st-wait-bg: rgba(133, 77, 14, 0.2);    --st-wait-txt: #fde047;
         --st-fail-bg: rgba(153, 27, 27, 0.2);    --st-fail-txt: #f87171;
         --st-gray-bg: rgba(71, 85, 105, 0.2);    --st-gray-txt: #94a3b8;
+        --st-cancel-bg: rgba(146, 64, 14, 0.25); --st-cancel-txt: #fbbf24;
     }
 
     /* ------------------------------------------------------------------
@@ -284,6 +286,9 @@
     
     .st-gray { background: var(--st-gray-bg); color: var(--st-gray-txt); }
     .st-gray .dot { background: currentColor; }
+    
+    .st-cancel { background: var(--st-cancel-bg); color: var(--st-cancel-txt); }
+    .st-cancel .dot { background: currentColor; }
 
     /* Price */
     .price-tag {
@@ -383,8 +388,11 @@
                                         <div class="status-dot st-wait"><span class="dot"></span> Unpaid</div>
                                     {elseif $pg_row['status'] == 3}
                                         <div class="status-dot st-fail"><span class="dot"></span> Failed</div>
+                                    {elseif $pg_row['status'] == 4}
+                                        <div class="status-dot st-cancel">
+                                            <span class="dot"></span> Cancelled</div>
                                     {else}
-                                        <div class="status-dot st-gray"><span class="dot"></span> Cancelled</div>
+                                        <div class="status-dot st-gray"><span class="dot"></span> Unknown</div>
                                     {/if}
                                 </td>
 
