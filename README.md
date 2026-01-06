@@ -19,12 +19,11 @@ All UI overrides are implemented using the `ui_custom` directory to ensure:
 
 Click a module name to jump to its section:
 
-- [Payment Gateway Admin UI (Modern Redesign)](#payment-gateway-admin-ui-modern-redesign)
+- [Payment Gateway Admin UI (Modern Redesign)](#-payment-gateway-admin-ui-modern-redesign)
 
 > More modules will be added in the future.
 
 ---
-
 ## 🔹 Payment Gateway Admin UI (Modern Redesign)
 
 <details>
