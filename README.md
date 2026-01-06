@@ -186,7 +186,14 @@ Contributions are welcome.
 
 ---
 
-## 📜 License
+## 📜 License  - [ ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ]
 
-This project is licensed under the **MIT License**.  
-Free to use, modify, and distribute.
+This project is licensed under the **MIT License**.
+
+You are free to:
+- Use the project for personal or commercial purposes
+- Modify and customize the code
+- Distribute and share it
+
+See the [LICENSE](LICENSE) file for full license details.
+
