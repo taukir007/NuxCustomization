@@ -12,6 +12,7 @@ All UI overrides are implemented using the `ui_custom` directory to ensure:
 - ✅ Update safety
 - ✅ Easy installation
 - ✅ Long-term maintainability
+<br>
 
 ---
 
@@ -22,6 +23,7 @@ Click a module name to jump to its section:
 - [Payment Gateway Admin UI (Modern Redesign)](#-payment-gateway-admin-ui-modern-redesign)
 
 > More modules will be added in the future.
+<br>
 
 ---
 ## 🔹 Payment Gateway Admin UI (Modern Redesign)
@@ -70,6 +72,8 @@ All while remaining **fully compatible** with PHPNuxbill’s backend logic.
 #### Mobile Support
 - Fully responsive
 - Optimized for tablets and smartphones
+
+<br>
 
 ---
 
@@ -161,6 +165,7 @@ case 'audit':
 </details>
 
 ---
+<br>
 
 ## 🔗 Related Projects
 
